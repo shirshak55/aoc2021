@@ -74,7 +74,7 @@ fn main() {
             .map(|v| println!("The answer is {}", v))
             .map(drop)
             .last()
-            .unwrap();
+            .unwrap()
     })(include_str!("input.txt").to_string()))
     .next()
     .map(|_| ())
