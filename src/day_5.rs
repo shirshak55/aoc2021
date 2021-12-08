@@ -1,4 +1,5 @@
 fn main() {
+    // cargo run --bin day_5
     std::iter::once((|input: String| {
         input
             .lines()
@@ -75,7 +76,7 @@ fn main() {
             .map(drop)
             .last()
             .unwrap()
-    })(include_str!("input.txt").to_string()))
+    })(include_str!("../inputs/day_5.txt").to_string()))
     .next()
     .map(|_| ())
     .unwrap()
