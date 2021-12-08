@@ -1,5 +1,7 @@
 fn main() {
     // cargo run --bin day_6
+
+    // part1 and part2 both are same
     std::fs::read_to_string("inputs/day_6.txt")
         .ok()
         .and_then(|v| {
