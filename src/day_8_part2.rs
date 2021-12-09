@@ -26,5 +26,5 @@ fn main() {
         .into_iter()
         .map(|v| println!("The answer is {}", v.into_iter().count()))
         .next()
-        .unwrap();
+        .unwrap()
 }
