@@ -92,13 +92,13 @@ fn main() {
                                                                     })
                                                                     .unwrap_or_default()
                                                                 })
-                                                                .unwrap_or_default();
+                                                                .unwrap_or_default()
                                                         })
                                                         .last()
                                                         .map(|_| ())
                                                         .unwrap()
                                                 })
-                                                .unwrap();
+                                                .unwrap()
                                         }
                                     })
                                     .next()
