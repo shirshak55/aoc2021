@@ -41,7 +41,7 @@ fn main() {
                     .unwrap()
             })
             .min()
-            .map(|v| println!("The answer is {v}"))
+            .map(|v| println!("The answer is {v}", v = v))
     })
     .map(|_| ())
     .unwrap()

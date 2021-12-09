@@ -50,6 +50,6 @@ fn main() {
                 .map(|v| v.1)
                 .sum::<isize>()
         })
-        .map(|v| println!("The answer is {v}"))
+        .map(|v| println!("The answer is {v}", v = v))
         .unwrap_or_default()
 }
