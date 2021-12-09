@@ -30,10 +30,10 @@ fn main() {
                     .iter()
                     .enumerate()
                     .map(|jj| {
-                        vv[jj.0 as usize] = (*hm
+                        [vv[jj.0 as usize] = (*hm
                             .entry((ii.max(*jj.1), ii.min(*jj.1)))
                             .or_insert(ii.max(*jj.1) - ii.min(*jj.1)))
-                            as isize;
+                            as isize][0]
                     })
                     .last()
                     // for part 1 no need to do sum of series
