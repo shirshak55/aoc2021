@@ -36,7 +36,6 @@ fn main() {
                             as isize][0]
                     })
                     .last()
-                    // for part 1 no need to do sum of series
                     .map(|_| vv.iter().map(|v| v * (v + 1) / 2).sum::<isize>())
                     .unwrap()
             })

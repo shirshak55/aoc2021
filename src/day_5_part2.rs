@@ -1,5 +1,4 @@
 fn main() {
-    // cargo run --bin day_5
     std::iter::once((|input: String| {
         input
             .lines()

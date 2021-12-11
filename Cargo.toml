@@ -23,14 +23,21 @@ name="day_5_part2"
 path="src/day_5_part2.rs"
 
 [[bin]]
-name="day_6"
-path="src/day_6.rs"
+name="day_6_part1"
+path="src/day_6_part1.rs"
+
+[[bin]]
+name="day_6_part2"
+path="src/day_6_part2.rs"
 
 
 [[bin]]
-name="day_7"
-path="src/day_7.rs"
+name="day_7_part1"
+path="src/day_7_part1.rs"
 
+[[bin]]
+name="day_7_part2"
+path="src/day_7_part2.rs"
 
 [[bin]]
 name="day_8_part1"
