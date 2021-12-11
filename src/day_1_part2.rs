@@ -13,7 +13,6 @@ fn main() {
                 .collect::<Vec<_>>()
         })
         .map(|v| v.windows(2).filter(|v| v[1] > v[0]).count())
-        .map(|v| dbg!(v))
-        //.map(|answer| println!("The answer is {}", answer))
-        .unwrap();
+        .map(|answer| println!("The answer is {}", answer))
+        .unwrap()
 }

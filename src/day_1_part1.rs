@@ -8,5 +8,5 @@ fn main() {
         })
         .map(|input| input.windows(2).filter(|v| v[1] > v[0]).count())
         .map(|answer| println!("The answer is {}", answer))
-        .unwrap();
+        .unwrap()
 }
