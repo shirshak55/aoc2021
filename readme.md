@@ -6,6 +6,9 @@ This year the rules are more strict and writing it in rust will not suffice. We 
 2. No Crates
 3. No if
 4. no while
+5. no use
+6. no recursion
+7.
 
 ## Running
 
