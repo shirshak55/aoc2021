@@ -7,8 +7,6 @@ This year the rules are more strict and writing it in rust will not suffice. We 
 3. No if
 4. no while
 
-And not all solution has part 1 but I have commented in code base to retrive part1
-
 ## Running
 
 To run day 3 part 2 use the following command:
