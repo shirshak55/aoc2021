@@ -122,3 +122,13 @@ path="src/day_13_part1.rs"
 [[bin]]
 name="day_13_part2"
 path="src/day_13_part2.rs"
+
+
+[[bin]]
+name="day_14_part1"
+path="src/day_14_part1.rs"
+
+
+[[bin]]
+name="day_14_part2"
+path="src/day_14_part2.rs"
