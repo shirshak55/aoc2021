@@ -14,20 +14,19 @@ This year the rules are more strict and writing it in rust will not suffice. We 
 
 To run day 3 part 2 use the following command:
 
-```
+```bash
 cargo run --bin day_3_part2
-
 ```
 
 Remember there is no `_` (underscore) after part in above command so don't do something like day_3_part_2
 
-## Inspiration
+## Why?
 
 One of my favorite mentor museun started writing advent of code 2021 using this approach (like no semicolon etc.). So, I
 thought I should also try. After doing one or two puzzle I really like this approach and it makes me think differently.
-So I decided to solve puzzle using this approach.
+So I decided to solve aoc 2021 puzzles using this approach.
 
-## Also see:
+## Additional Links:
 
 1. [Museun's solution of aoc 2021](https://github.com/museun/aoc2021)
 2. [Diet Semicola](https://github.com/museun/diet-semicola) - Twitch Bot
